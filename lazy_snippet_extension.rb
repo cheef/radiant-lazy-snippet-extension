@@ -6,14 +6,6 @@ class LazySnippetExtension < Radiant::Extension
   description "This extension provides snippet's lazy loading via ajax after page loading"
   url "http://github.com/cheef/radiant-lazy-snippet-extension"
   
-   define_routes do |map|
-     map.with_options :controller => 'site' do |site|
-       site.connect 'snippet', :action => 'show_snippet'
-     end
-   end
-
-
-
   def activate
     include_radius_tags
     extend_site_controller
