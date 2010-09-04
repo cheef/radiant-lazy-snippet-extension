@@ -27,8 +27,8 @@ Usage
 
 * include required script like
 <pre><code>
-  <script type="text/javascript" src="/javascripts/prototype.js"></script>
-  <script type="text/javascript" src="/javascripts/extensions/lazy_snippet/lazy_snippet.js"></script>
+/javascripts/prototype.js
+/javascripts/extensions/lazy_snippet/lazy_snippet.js
 </code></pre>
 
 *place <code><r:lazy_snippet name="%test%" /></code> tag to page/snippet/layout content,
